@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f2f2;
+}
+.profile {
+    width: 3.5rem;
+}
+.school_logo_container {
+    width: 6%;
+}
+.school_logo {
+    width: 100%;
+}
+.category_item {
+    cursor:pointer;
+}
+.note-editor {
+    margin-bottom: 20px;
+}
+.text-blue {
+    color: #0088D7;
+}
+.text-dark-blue {
+    color: #004257;
+}
+.text-orange {
+    color: #FF6C01;
+}
+.bg-light-green {
+    color: white;
+    background-color: #039711;
+}
+.footer-logos {
+    text-decoration: none;
+    color: #888888;
+    margin-right: 0.5em;
+}
+.footer-txt {
+    font-size: .8rem;
+}

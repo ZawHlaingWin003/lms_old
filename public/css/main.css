@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+:root{
+    --main-color: #035397;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Main Color */
+.text-main{
+    color: var(--main-color);
+}
+
+
+/* Custom Button */
+.main-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: .1rem;
+    font-size: .8rem;
+    padding: 0.5rem 0.8rem;
+}
+.main-btn:hover{
+    background-color: #095ea3;
+    color: #fff;
+}
+
+
+
+/* Course Card */
+.course-title{
+    text-decoration: none;
+}
+.progress-bar{
+    background-color: var(--main-color);
+}
+
+
+
+#edittingModal .modal-dialog .modal-content .modal-body .left .left_div {
+    color: #035397;
+    padding: 1.2rem;
+    border-bottom: 1px solid #afacac;
+}
+#edittingModal .modal-dialog .modal-content .modal-body .left .left_div i {
+    font-size: 1.2rem;
+    margin-right: 5rem;
+    margin-left: 3rem;
+}
+#edittingModal .modal-dialog .modal-content .modal-body .left .left_div a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-left: 5rem;
+}
+#edittingModal
+    .modal-dialog
+    .modal-content
+    .modal-body
+    .left
+    .left_div
+    i:hover {
+    color: #000000;
+}
+#edittingModal
+    .modal-dialog
+    .modal-content
+    .modal-body
+    .left
+    .left_div
+    a:hover {
+    color: #035397;
+}
+.edding_exam_top_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.edding_exam_top_div .left h3 {
+    font-weight: bold;
+    color: #0088d7;
+}
+.edding_exam_top_div .right {
+    display: flex;
+}
+.edding_exam_top_div .right label {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.edding_exam_top_div .right input {
+    margin: 0 1.5rem;
+    width: 100px;
+}
+.edding_exam_top_div .right input:focus {
+    outline: none !important;
+    border: 1px solid #0088d7;
+    box-shadow: 0 0 10px #719ece;
+}
+.edding_exam_top_div .right button {
+    background-color: #035397;
+    color: #ffffff;
+    padding: 0.5rem 2.5rem;
+}
+
+
+/* Multiple Choice Componet*/
+.multipleheader_div .multipleheader {
+    color: #0088d7;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+/* Answer Page */
+.amt .amt_div .amt_ul {
+    display: flex;
+    float: right;
+    background-color: #ffffff;
+}
+.amt .amt_div .amt_ul li {
+    list-style: none;
+    margin: 0.5rem 1rem;
+    margin-right: 2rem;
+}
+.amt .amt_div .amt_ul li a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #004257;
+}
+.amt .amt_div .amt_ul li a:hover {
+    border-bottom: 1px solid #035397;
+}
+
+/* True Or False Componet */
+.truefalse_header_div .truefalse_header{
+    color: #0088d7;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+.truefalse_card{
+    padding: 2rem;
+}
+.truefalse_card .left_pra .truefalepra_no {
+    display: flex;
+    font-size: 1.2rem;
+}
+.truefalse_card .left_pra .truefalepra_no .right_p{
+    margin-left: 1.5rem;
+}
+.truefalse_card .left_pra .choice_true_false{
+    margin-left: 2.5rem;
+    opacity: 0.7;
+}
+.truefalse_card .right_para .action_button{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.truefalse_card .right_para .action_button a{
+    text-decoration: none;
+    padding: 0.4rem 1.2rem;
+}
+/* Short answer */
+.short_answer_all .short_answer_header_div .short_answer_header {
+    color: #0088d7;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.short_answer_all .shortanswer_card {
+    padding: 2rem;
+}
+.short_answer_all .shortanswer_card .shortanswer_pnadno {
+    display: flex;
+    font-size: 1.2rem;
+}
+.short_answer_all .shortanswer_card .shortanswer_pnadno .right_p{
+    margin-left: 1.5rem;
+}
+
+.short_answer_all .shortanswer_card .action_buttons a{
+    padding: 0.5rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.short_answer_all .shortanswer_card .action_buttons button{
+    padding: 0.5rem 1.2rem;
+    margin-top: 0.5rem;
+}
+/* Long Answer Question */
+
+.longanswer_all .longanswer_header_div .longanswer_header {
+    color: #0088d7;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.longanswer_all .longanswer_card {
+    padding: 2rem;
+}
+.longanswer_all .longanswer_card .longanswer_pnadno {
+    display: flex;
+    font-size: 1.2rem;
+}
+.longanswer_all .longanswer_card .longanswer_pnadno .right_p{
+    margin-left: 1.5rem;
+}
+.longanswer_all .longanswer_card .action_buttons a{
+
+    padding: 0.5rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.longanswer_all .longanswer_card .action_buttons button {
+    padding: 0.5rem 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Student Exan show card for css*/
+
+.student_exam_card{
+    padding: 2rem;
+}

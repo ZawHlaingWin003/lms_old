@@ -1,0 +1,84 @@
+/* For Forum view  */
+.forum{
+    background-color: #ffffff;
+}
+.forum .forum_card{
+    padding: 2rem;
+    border: 1px solid #7a7777;
+}
+.forum .forum_card .profile_img_name_position{
+    display: flex;
+    align-items: center;
+}
+.forum .forum_card .profile_img_name_position img{
+    border-radius: 100%;
+}
+.forum .forum_card .profile_img_name_position .name_and_position h6{
+    color: #0088d7;
+    font-size: 1.2rem;
+}
+
+.forum .forum_card .profile_img_name_position .name_and_position p{
+    font-weight: bold;
+}
+.forum .forum_card .profile_img_name_position .name_and_position{
+    margin-left: 1.5rem;
+}
+.forum .forum_card .description{
+    margin: 1rem 0 0 6rem;
+}
+
+.forum .forum_card .action_button .right a{
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+.forum .forum_card .action_button .right a:hover{
+   border-bottom: 1px solid #0088d7;
+}
+
+/* Oneline reply */
+.forum .oneline_reply{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.forum .oneline_reply .card{
+    padding: 2rem;
+    border: 1px solid #7a7777;
+}
+.forum .oneline_reply .card .profile_img_name_position{
+    display: flex;
+    align-items: center;
+}
+.forum .oneline_reply .card .profile_img_name_position img{
+    border-radius: 100%;
+}
+.forum .oneline_reply .card .profile_img_name_position .name_and_position {
+    margin-left: 1.5rem;
+}
+.forum .oneline_reply .card .profile_img_name_position .name_and_position p{
+    font-weight: bold;
+}
+.forum .oneline_reply .card .profile_img_name_position .name_and_position h6{
+    color: #0088d7;
+}
+.forum .oneline_reply .card .description{
+    margin: 1rem 0 0 6rem;
+}
+.forum .oneline_reply .card .action_button .right a{
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.forum .oneline_reply .card .action_button .right a:hover{
+    border-bottom: 1px solid #0088d7;
+}
+
+.forum .student_to_teacher{
+    margin: 5rem 0;
+}
+
+@media only screen and (max-width:500px) {
+    .forum {
+        font-style: 0.5rem;
+    }
+}
